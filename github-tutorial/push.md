@@ -10,8 +10,8 @@
 	1. 设置与本地文件对应的远程仓库
 		`git remote add origin url-of-your-repo`
 	2. 添加文件到git并提交更改
-		+ 将文件添加到Git暂存区
-		`git add`
+		+ 将该目录下所有更改添加到Git暂存区
+		`git add .`
 		+ 确认这些更改
 		`git commit -m "description-of-change"`
 	3. 使用SSH鉴权替代用户名密码登录
